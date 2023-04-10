@@ -1,7 +1,7 @@
 
 const elem = document.getElementById('inputNum');
 
-elem.addEventListener('input', handleInput);
+elem.addEventListener('input' , handleInput);
 
 
 function handleInput(elem){
