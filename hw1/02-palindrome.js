@@ -10,11 +10,14 @@ function handleInput(elem){
     var reversedString = val.toString().split("").reverse().join("");
     
     if (val == reversedString) {
+        document.getElementById("answer").style.color = 'green';
         document.getElementById("answer").innerHTML = "Yes.  This is a palindrome!";
     } else if (val !== reversedString && val >= 0) {
+        document.getElementById("answer").style.color = 'red';
         document.getElementById("answer").innerHTML = "No.  Try again.";
     }
     else if(val<0){
+        document.getElementById("answer").style.color = 'red';
         document.getElementById("answer").innerHTML = "Number must be greater then 0.";
     }
 
