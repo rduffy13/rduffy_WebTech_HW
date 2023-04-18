@@ -11,14 +11,14 @@ function handleInput(elem){
     
     if (val == reversedString) {
         document.getElementById("answer").style.color = 'green';
-        document.getElementById("answer").innerHTML = "Yes.  This is a palindrome!";
+        document.getElementById("answer").innerHTML = 'Yes.  This is a palindrome!';
     } else if (val !== reversedString && val >= 0) {
         document.getElementById("answer").style.color = 'red';
-        document.getElementById("answer").innerHTML = "No.  Try again.";
+        document.getElementById("answer").innerHTML = 'No.  Try again.';
     }
     else if(val<0){
         document.getElementById("answer").style.color = 'red';
-        document.getElementById("answer").innerHTML = "Number must be greater then 0.";
+        document.getElementById("answer").innerHTML = 'Number must be greater then 0.';
     }
 
 }
