@@ -23,5 +23,5 @@ function get_data(){
     }
 
     let msg = document.getElementById("comments").value;
-    console.log("Comments: ", msg);
+    console.log(" Comments: ", msg);
 }

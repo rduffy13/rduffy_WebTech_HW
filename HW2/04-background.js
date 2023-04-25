@@ -3,7 +3,7 @@ let IntTime = 3;
 
 
 function start_stop(){
-    let button = document.getElementById("button1");
+    let button = document.getElementById("button1 ");
     IntTime = document.getElementById("interval").value;
     if(intID === null){
         intID = setInterval(change_color, IntTime * 1000);

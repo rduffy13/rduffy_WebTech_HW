@@ -26,3 +26,5 @@ grid-template-columns: 75px 3fr 2fr;
 grid-template-rows: repeat(4,12.5px) 1fr
 grid-template: 60% 40% / 200px;
 grid-template: 1fr 50px / 1fr 4fr;
+
+-Richard Duffy
