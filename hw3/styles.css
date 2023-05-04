@@ -19,10 +19,10 @@ h1 {
 }
 
 .character-card {
-  padding: 5px;
-  margin: 5px;
+  padding: 2px;
+  margin: 1px;
   align-items: center;
-  flex-basis: 40%;
+  flex-basis: 20%;
   font-weight: bold;
   text-align: center;
 }
