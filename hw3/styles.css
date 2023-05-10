@@ -17,3 +17,39 @@ h1 {
   border-radius: 0.8rem;
   background-color: var(--white);
 }
+
+.single_char {
+  padding: 2px;
+  margin: 1px;
+  align-items: center;
+  flex-basis: 20%;
+  font-weight: bold;
+  text-align: center;
+}
+.single_char:hover {
+  background-color: purple;
+  color: white;
+}
+
+.charPic {
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .single_char {
+    padding: 2px;
+    margin: 1px;
+    align-items: center;
+    flex-basis: 35%;
+    font-weight: bold;
+    text-align: center;
+  }
+}
