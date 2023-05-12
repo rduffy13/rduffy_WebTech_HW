@@ -1,0 +1,25 @@
+.home_style {
+  text-align: center;
+}
+.player {
+  text-align: center;
+  border: 1em;
+}
+.Search_head {
+  text-align: center;
+  font-weight: bold;
+}
+
+.user_in {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.big {
+  justify-content: center;
+  display: flex;
+}
+.names {
+  text-align: center;
+  font-weight: bold;
+}
